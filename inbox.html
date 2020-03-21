@@ -2,33 +2,37 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./pages/inbox.css" />
     <title>Петр Федоров</title>
   </head>
   <body class="page">
-    <header class="header">
+    <header class="header wrapper">
+      <a href="https://discord.gg" class="header__link" target="_blank"
+        ><img src="./images/discord.svg" alt="discord" class="header__logo"
+      /></a>
       <ul class="social">
         <li class="social__item">
-          <a href="https://github.com" class="social__link"
-            ><img
-              src="./images/github.svg"
-              alt="github"
-              class="social__logo"/></a
-          ><a href="https://twitter.com" class="social__link"
-            ><img
-              src="./images/twitter.svg"
-              alt="twitter"
-              class="social__logo"/></a
-          ><a href="https://instagram.com" class="social__link"
+          <a href="https://github.com" class="social__link" target="_blank"
+            ><img src="./images/github.svg" alt="github" class="social__logo"
+          /></a>
+        </li>
+        <li class="social__item">
+          <a href="https://twitter.com" class="social__link" target="_blank"
+            ><img src="./images/twitter.svg" alt="twitter" class="social__logo"
+          /></a>
+        </li>
+        <li class="social__item">
+          <a href="https://instagram.com" class="social__link" target="_blank"
             ><img
               src="./images/instagram.svg"
               alt="instagram"
-              class="social__logo"/></a
-          ><a href="https://facebook.com" class="social__link"
+              class="social__logo"
+          /></a>
+        </li>
+        <li class="social__item">
+          <a href="https://facebook.com" class="social__link" target="_blank"
             ><img
               src="./images/facebook.svg"
               alt="facebook"
@@ -38,118 +42,190 @@
       </ul>
     </header>
     <main class="main">
-      <section class="hero">
+      <section class="hero wrapper">
         <div class="hero__text">
-          <p class="hero__lead">Фрилансер</p>
+          <p class="heading hero__heading hero__heading_color_orange">
+            Фрилансер
+          </p>
           <h1 class="hero__title">Петр Федоров</h1>
-          <p class="hero__desc">
+          <p class="desc hero__desc">
             Разрабатываю сайты для малого и среднего бизнеса. У меня можно
             заказать дизайн и верстку небольшого сайта или интернет-магазина
           </p>
-          <button class="btn hero__btn">Бесплатная консультация</button>
+          <a href="#form">
+            <button class="btn hero__btn">Бесплатная консультация</button>
+          </a>
         </div>
         <img
-          src="./images/avatar.jpg"
+          src="./images/hero-avatar.png"
           alt="Фотокарточка создателя сайта"
           class="hero__img"
         />
       </section>
       <section class="features">
-        <h2 class="features__title">Со мной удобно работать</h2>
-        <div class="features__container">
-          <div class="info">
-            <h2 class="info__title">По договору</h2>
-            <p class="info__desc">
-              Предоставлю все документы для бухгалтерии: договоры, счета и акты.
-              Работаю как ИП без НДС.
-            </p>
-          </div>
-          <div class="info">
-            <h2 class="info__title">Точно в срок</h2>
-            <p class="info__desc">
-              В договоре прописана моя ответственность за срок проекта. Если
-              просрочу — плачу неустойку.
-            </p>
-          </div>
-          <div class="info">
-            <h2 class="info__title">Ценник под вас</h2>
-            <p class="info__desc">
-              Если у вас нетиповой проект, сделаю рассчет цены за работу и
-              объясню, как складывается цена.
-            </p>
-          </div>
-          <div class="info">
-            <h2 class="info__title">Премежуточные итоги</h2>
-            <p class="info__desc">
-              Показываю работу поэтапно, а не  в последий момент перед  крайним
-              сроком.
-            </p>
-          </div>
-          <div class="info">
-            <h2 class="info__title">Хостинг и домен</h2>
-            <p class="info__desc">
-              Если мы договорились о цене проекта, в неё входит всё: домен и
-              хостинг на год + SSL сертификат.
-            </p>
-          </div>
-          <div class="info">
-            <h2 class="info__title">Не брошу после сдачи</h2>
-            <p class="info__desc">
-              Научу вас или вашего сотрудника пользоваться сайтом, запишу
-              видео-инструкции.
-            </p>
+        <div class="wrapper features__wrapper">
+          <h2 class="title features__title">Со мной удобно работать</h2>
+          <div class="features__container">
+            <div class="info">
+              <img src="./images/offer-img.svg" alt="" class="info__img" />
+              <h2 class="heading info__heading">По договору</h2>
+              <p class="desc info__desc">
+                Предоставлю все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
+            </div>
+            <div class="info">
+              <img src="./images/deadline-img.svg" alt="" class="info__img" />
+              <h2 class="heading info__heading">Точно в срок</h2>
+              <p class="desc info__desc">
+                В договоре прописана моя ответственность за срок проекта. Если
+                просрочу — плачу неустойку.
+              </p>
+            </div>
+            <div class="info">
+              <img src="./images/agreement-img.svg" alt="" class="info__img" />
+              <h2 class="heading info__heading">Ценник под вас</h2>
+              <p class="desc info__desc">
+                Если у вас нетиповой проект, сделаю рассчет цены за работу и
+                объясню, как складывается цена.
+              </p>
+            </div>
+            <div class="info">
+              <img src="./images/steps-img.svg" alt="" class="info__img" />
+              <h2 class="heading info__heading">Премежуточные итоги</h2>
+              <p class="desc info__desc">
+                Показываю работу поэтапно, а не в последий момент перед крайним
+                сроком.
+              </p>
+            </div>
+            <div class="info">
+              <img src="./images/storage-img.svg" alt="" class="info__img" />
+              <h2 class="heading info__heading">Хостинг и домен</h2>
+              <p class="desc info__desc">
+                Если мы договорились о цене проекта, в&nbsp;неё входит всё:
+                домен и хостинг на год&nbsp;+&nbsp; SSL сертификат.
+              </p>
+            </div>
+            <div class="info">
+              <img
+                src="./images/conversation-img.svg"
+                alt=""
+                class="info__img"
+              />
+              <h2 class="heading info__heading">Не брошу после сдачи</h2>
+              <p class="desc info__desc">
+                Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                видео-инструкции.
+              </p>
+            </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <h2 class="footer__title"></h2>
+    <footer class="footer wrapper">
+      <h2 class="title footer__title">Свяжитесь со мной</h2>
       <div class="footer__container">
-        <form action="" class="footer__form">
-          <h2 class="footer__form-title"></h2>
-          <fieldset class="footer__fieldset">
-            <input type="text" class="footer__input" />
-            <input type="text" class="footer__input" />
-            <button class="btn footer__btn"></button>
+        <form action="#" class="form" id="form">
+          <fieldset class="form__fieldset">
+            <h2 class="form__title">
+              Можете просто оставить заявку, я&nbsp;позвоню вам сегодня
+            </h2>
+            <input
+              type="text"
+              class="form__input form__input_name"
+              placeholder="Ваше имя"
+              name="name"
+              required
+            />
+            <input
+              type="tel"
+              class="form__input form__input_phone"
+              placeholder="Ваш телефон"
+              name="tel"
+              required
+            />
+            <button
+              class="btn form__btn"
+              type="submit"
+              form="form"
+              value="submit"
+            >
+              Бесплатная консультация
+            </button>
           </fieldset>
         </form>
         <div class="footer__content">
           <div class="footer__grid">
             <div class="footer__cell">
-              <h2 class="footer__cell-title">Телефон</h2>
-              <a href="tel: +79991234567" class="footer__cell-link"
+              <h2 class="heading footer__heading">Телефон</h2>
+              <a href="tel:+79991234567" class="footer__link" target="_blank"
                 >+7 999 123 45 67</a
               >
             </div>
-            <div class="footer__cell">
-              <h2 class="footer__cell-title">Почта</h2>
-              <a href="mailto: ivanov@mail.ru" class="footer__cell-link"
+            <div class="footer__cell footer__cell_position_center">
+              <h2 class="heading footer__heading">Почта</h2>
+              <a
+                href="mailto:ivanov@mail.ru"
+                class="footer__link"
+                target="_blank"
                 >ivanov@mail.ru</a
               >
             </div>
-            <div class="footer__cell">
-              <h2 class="footer__cell-title">Соцсети</h2>
-              <p class="footer__cell-desc"></p>
+            <div class="footer__cell footer__cell_wide">
+              <h2 class="heading footer__heading">Соцсети</h2>
+              <div class="footer__link-container">
+                <a
+                  href="https://t.me/ivanov"
+                  class="footer__link"
+                  target="_blank"
+                  >t.me/ivanov</a
+                ><a
+                  href="https://vk.me/ivanov"
+                  class="footer__link"
+                  target="_blank"
+                  >vk.me/ivanov</a
+                ><a
+                  href="https://fb.me/ivanov"
+                  class="footer__link"
+                  target="_blank"
+                  >fb.me/ivanov</a
+                >
+              </div>
             </div>
           </div>
           <ul class="social">
             <li class="social__item">
-              <a href="https://github.com" class="social__link"
+              <a href="https://github.com" class="social__link" target="_blank"
                 ><img
                   src="./images/github.svg"
                   alt="github"
-                  class="social__logo"/></a
-              ><a href="https://twitter.com" class="social__link"
+                  class="social__logo"
+              /></a>
+            </li>
+            <li class="social__item">
+              <a href="https://twitter.com" class="social__link" target="_blank"
                 ><img
                   src="./images/twitter.svg"
                   alt="twitter"
-                  class="social__logo"/></a
-              ><a href="https://instagram.com" class="social__link"
+                  class="social__logo"
+              /></a>
+            </li>
+            <li class="social__item">
+              <a
+                href="https://instagram.com"
+                class="social__link"
+                target="_blank"
                 ><img
                   src="./images/instagram.svg"
                   alt="instagram"
-                  class="social__logo"/></a
-              ><a href="https://facebook.com" class="social__link"
+                  class="social__logo"
+              /></a>
+            </li>
+            <li class="social__item">
+              <a
+                href="https://facebook.com"
+                class="social__link"
+                target="_blank"
                 ><img
                   src="./images/facebook.svg"
                   alt="facebook"

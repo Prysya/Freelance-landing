@@ -1,0 +1,15 @@
+.social__link:hover:after,
+.social__link:focus:after {
+  width: 100%;
+}
+
+.social__link:after {
+  background-color: white;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}

@@ -1,0 +1,26 @@
+@import url(_name/form__input_name.css);
+@import url(_phone/form__input_phone.css);
+
+.form__input {
+  background-color: #f8f8f8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+  max-width: 380px;
+  height: 70px;
+  margin: 0 auto 20px;
+  padding: 20px 52px;
+  box-sizing: border-box;
+
+  background-size: 16px;
+  background-position: 24px center;
+}
+
+.form__input:last-of-type {
+  margin-bottom: 28px;
+}
+
+.form__input:focus {
+  box-shadow: 0 0 2px #ad7f01;;
+}

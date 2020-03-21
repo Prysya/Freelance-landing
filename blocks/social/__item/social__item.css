@@ -1,0 +1,7 @@
+.social__item {
+  margin-right: 20px;
+}
+
+.social__item:last-of-type {
+  margin-right: 0;
+}

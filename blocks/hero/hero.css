@@ -1,0 +1,14 @@
+@import url(./__btn/hero__btn.css);
+@import url(./__desc/hero__desc.css);
+@import url(./__heading/hero__heading.css);
+@import url(./__heading/_color/hero__heading_color_orange.css);
+@import url(./__img/hero__img.css);
+@import url(./__title/hero__title.css);
+@import url(./__text/hero__text.css);
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}

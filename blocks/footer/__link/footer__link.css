@@ -1,0 +1,26 @@
+.footer__link {
+  text-decoration: none;
+  color: white;
+  margin-right: 51px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.footer__link:last-of-type {
+  margin-right: 0;
+}
+
+.footer__link:after {
+  background-color: white;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+.footer__link:hover:after,
+.footer__link:focus:after {
+  width: 100%;
+}

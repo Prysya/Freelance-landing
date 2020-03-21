@@ -1,0 +1,6 @@
+.features__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 72px;
+  column-gap: 16px;
+}

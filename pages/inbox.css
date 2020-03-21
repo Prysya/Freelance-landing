@@ -1,0 +1,14 @@
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/wrapper/wrapper.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/social/social.css);
+@import url(../blocks/heading/heading.css);
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/btn/btn.css);
+@import url(../blocks/desc/desc.css);
+@import url(../blocks/features/features.css);
+@import url(../blocks/info/info.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/form/form.css);

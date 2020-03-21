@@ -1,0 +1,7 @@
+@import url(./__container/features__container.css);
+@import url(./__title/features__title.css);
+@import url(./__wrapper/features__wrapper.css);
+
+.features {
+  background-color: #141f35;
+}

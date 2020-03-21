@@ -1,0 +1,23 @@
+.btn {
+  background-color: #ffbb01;
+  border: 0;
+  box-shadow: 0px 4px 0px #b68500;
+  box-sizing: border-box;
+  border-radius: 5px 5px 10px 10px;
+  cursor: pointer;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: #1b2944;
+}
+
+.btn:focus, .btn:hover {
+  background-color: #f5b101;
+}
+
+.btn:active {
+  box-shadow: 0px 2px 0px #b68500;
+  transform: translateY(2px);
+}

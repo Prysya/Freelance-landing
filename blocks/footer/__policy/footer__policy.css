@@ -1,0 +1,14 @@
+.footer__policy {
+  color: #949494;
+  margin-top: auto;
+  font-size: 0.9375rem;
+  line-height: 1;
+  transition: color 0.2s linear;
+  display: block;
+  width: 215px;
+}
+
+.footer__policy:hover,
+.footer__policy:active {
+  color: #e6e6e6;
+}
