@@ -22,5 +22,14 @@
 }
 
 .form__input:focus {
-  box-shadow: 0 0 2px #ad7f01;;
+  box-shadow: 0 0 2px #ad7f01;
+}
+
+@media screen and (max-width: 600px) {
+  .form__input {
+    margin-bottom: 12px;
+  }
+  .form__input:last-of-type {
+    margin-bottom: 33px;
+  }
 }

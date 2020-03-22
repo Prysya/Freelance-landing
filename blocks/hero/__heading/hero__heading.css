@@ -2,3 +2,9 @@
   margin: 0;
   margin-bottom: 14px;
 }
+
+@media screen and (max-width: 600px) {
+  .hero__heading {
+    margin-bottom: 9px;
+  }
+}

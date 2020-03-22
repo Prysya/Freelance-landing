@@ -2,3 +2,10 @@
   margin-bottom: 77px;
   font-size: 2.125rem;
 }
+
+@media screen and (max-width: 600px) {
+  .features__title {
+    font-size: 1.125rem;
+    margin-bottom: 58px;
+  }
+}

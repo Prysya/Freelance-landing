@@ -3,3 +3,13 @@
   height: 73px;
   width: 100%;
 }
+@media screen and (max-width: 600px) {
+  .form__btn {
+    height: 53px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .form__btn {
+    padding: 0;
+  }
+}

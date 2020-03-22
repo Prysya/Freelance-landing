@@ -1,4 +1,6 @@
 .footer__content{
   display: flex;
   flex-direction: column;
+  max-width: 384px;
+  width: 100%;
 }

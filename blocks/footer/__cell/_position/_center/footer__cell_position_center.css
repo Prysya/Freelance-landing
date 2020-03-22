@@ -1,3 +1,9 @@
 .footer__cell_position_center {
- justify-self: center;
+  justify-self: center;
+}
+
+@media screen and (max-width: 764px) {
+  .footer__cell_position_center {
+    justify-self: start;
+  }
 }

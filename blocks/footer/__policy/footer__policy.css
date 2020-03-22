@@ -5,10 +5,16 @@
   line-height: 1;
   transition: color 0.2s linear;
   display: block;
-  width: 215px;
+  max-width: 225px;
 }
 
 .footer__policy:hover,
 .footer__policy:active {
   color: #e6e6e6;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__policy {
+    margin-top: 25px;
+  }
 }

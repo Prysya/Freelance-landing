@@ -3,3 +3,9 @@
   margin-bottom: 40px;
   max-width: 450px;
 }
+
+@media screen and (max-width: 600px) {
+  .hero__desc {
+    margin-bottom: 58px;
+  }
+}

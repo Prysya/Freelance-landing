@@ -1,13 +1,11 @@
+@import url(./_margin/_small/footer__link_margin_small.css);
+
 .footer__link {
   text-decoration: none;
   color: white;
-  margin-right: 51px;
   display: inline-block;
   cursor: pointer;
-}
-
-.footer__link:last-of-type {
-  margin-right: 0;
+  font-size: 1rem;
 }
 
 .footer__link:after {
@@ -23,4 +21,10 @@
 .footer__link:hover:after,
 .footer__link:focus:after {
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__link {
+    font-size: 0.875rem;
+  }
 }

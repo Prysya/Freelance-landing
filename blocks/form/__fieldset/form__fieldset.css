@@ -7,3 +7,9 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .form__fieldset {
+    padding: 39px 19px 49px;
+  }
+}

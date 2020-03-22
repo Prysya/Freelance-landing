@@ -4,3 +4,11 @@
   width: 100%;
   height: 65px;
 }
+
+@media screen and (max-width: 600px) {
+  .hero__btn {
+    text-align: center;
+    height: 44px;
+    padding: 0;
+  }
+}

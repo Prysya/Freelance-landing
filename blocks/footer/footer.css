@@ -1,14 +1,21 @@
 @import url(./__cell/_wide/footer__cell_wide.css);
-@import url(__cell/_position/_center/footer__cell_position_center.css);
+@import url(./__cell/_position/_center/footer__cell_position_center.css);
 @import url(./__container/footer__container.css);
 @import url(./__title/footer__title.css);
 @import url(./__content/footer__content.css);
 @import url(./__grid/footer__grid.css);
 @import url(./__link/footer__link.css);
+@import url(./__link-container/footer__link-container.css);
 @import url(./__heading/footer__heading.css);
 @import url(./__policy/footer__policy.css);
 
 .footer {
   padding-top: 52px;
   padding-bottom: 52px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding-top: 27px;
+  }
 }

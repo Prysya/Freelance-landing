@@ -1,0 +1,5 @@
+@media screen and (max-width: 600px) {
+  .footer__link_margin_small {
+    margin-bottom: 9px;
+  }
+}

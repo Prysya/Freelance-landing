@@ -12,3 +12,12 @@
   padding-top: 80px;
   padding-bottom: 70px;
 }
+
+@media screen and (max-width: 600px) {
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 21px;
+    padding-bottom: 42px;
+  }
+}

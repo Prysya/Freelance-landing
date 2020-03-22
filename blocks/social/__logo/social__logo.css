@@ -3,3 +3,10 @@
   width: 20px;
   display: block;
 }
+
+@media screen and (max-width: 600px) {
+  .social__logo {
+    height: 16px;
+    width: 16px;
+  }
+}

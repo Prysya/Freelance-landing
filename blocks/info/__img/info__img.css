@@ -1,3 +1,9 @@
 .info__img {
   margin-bottom: 14px;
 }
+
+@media screen and (max-width: 600px) {
+  .info__img {
+    margin-bottom: 17px;
+  }
+}

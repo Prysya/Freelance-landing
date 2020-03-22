@@ -9,5 +9,18 @@
   border-radius: 5px;
   max-width: 458px;
   margin-right: 96px;
+  margin-left: 6px;
 }
+
+@media screen and (max-width: 764px) {
+  .form {
+    margin-right: 64px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    margin-right: 0;
+    margin-bottom: 57px;
+  }
 }

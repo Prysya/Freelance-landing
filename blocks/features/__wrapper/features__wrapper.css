@@ -2,3 +2,9 @@
   padding-top: 64px;
   padding-bottom: 92px;
 }
+
+@media screen and (max-width: 600px) {
+  .features__wrapper {
+    padding-bottom: 67px;
+  }
+}

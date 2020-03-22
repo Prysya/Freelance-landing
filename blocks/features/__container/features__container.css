@@ -4,3 +4,17 @@
   row-gap: 72px;
   column-gap: 16px;
 }
+
+@media screen and (max-width: 820px) {
+  .features__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .features__container {
+    row-gap: 36px;
+    grid-template-columns: 1fr;
+  }
+}

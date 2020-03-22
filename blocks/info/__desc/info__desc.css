@@ -2,3 +2,9 @@
   max-width: 302px;
   margin: 0;
 }
+
+@media screen and (max-width: 600px) {
+ .info__desc {
+   line-height: 2;
+ }
+}

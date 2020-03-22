@@ -1,3 +1,15 @@
 .heading {
   font-size: 1.4375rem;
 }
+
+@media screen and (max-width: 820px) {
+  .heading {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    font-size: 1rem;
+  }
+}

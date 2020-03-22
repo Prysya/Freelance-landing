@@ -3,5 +3,14 @@
 }
 
 .social__item:last-of-type {
-  margin-right: 0;
+   margin-right: 0;
+ }
+
+@media screen and (max-width: 600px) {
+  .social__item {
+    margin-right: 12px;
+  }
+  .social__item:last-of-type {
+    margin-right: 0;
+  }
 }
